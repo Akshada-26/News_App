@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!--These fragments are made to work on
+        all the items listed in navigation drawer
+        so that there java files can be managed separately -->
+
+    <!-- Fragment for Zee News-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newsapp.ui.Home.HomeFragment"
+        android:label="Zee News"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Fragment for Times Of India-->
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newsapp.ui.Gallery.GalleryFragment"
+        android:label="Times Of India"
+        tools:layout="@layout/fragment_gallery" />
+
+    <!-- Fragment for Hindustan Times-->
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newsapp.ui.Slideshow.SlideshowFragment"
+        android:label="Hindustan Times"
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>

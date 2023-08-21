@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/z"
+            android:menuCategory="secondary"
+            android:title="Zee News" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/t1"
+            android:menuCategory="secondary"
+            android:title="Times Of India" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/h"
+            android:menuCategory="secondary"
+            android:title="Hindustan Times" />
+
+    </group>
+
+</menu>
